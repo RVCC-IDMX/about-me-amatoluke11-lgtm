@@ -1,0 +1,26 @@
+body{
+    background-color: #E37971;
+}
+header{
+    font-family: Story Script;
+    color:#ABF468;
+    background-color: #63C9EB;
+}
+main{
+    font-size: xx-large;
+    font-family: Barriecito;
+    color: #3F1EE6;
+    background-color: #0AFC93;
+}
+img{
+    width: 10%;
+    height: auto;
+}
+p{
+    font-family: Barriecito;
+}
+footer{
+    font-family: Story Script;
+    color:#ABF468;
+    background-color: #63C9EB;
+}
