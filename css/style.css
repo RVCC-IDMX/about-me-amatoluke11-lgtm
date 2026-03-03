@@ -5,14 +5,17 @@ header{
     font-family: Story Script;
     color:#ABF468;
     background-color: #63C9EB;
+    text-align: center;
 }
 main{
+    text-align: center;
     font-size: xx-large;
     font-family: Barriecito;
     color: #3F1EE6;
     background-color: #0AFC93;
 }
 img{
+    align-self: center;
     width: 10%;
     height: auto;
 }
