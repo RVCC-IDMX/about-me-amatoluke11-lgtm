@@ -49,9 +49,40 @@ main{
 /* Gallery */
 #gallery{
     border: 2px solid #3F1EE6;
+    margin-bottom: 2rem;
 }
 #gallery img{
     max-width: 100%;
     border: 2px solid #3F1EE6;
     
+}
+
+/* Literature */
+#lit {
+    border: 2px solid #3F1EE6;
+    margin-bottom: 2rem;
+}
+#lit div{
+    padding:2rem;
+    max-width: 40rem;
+    margin: 0 auto;
+}
+#lit div p{
+    padding: 0.3rem 0;
+    clear:both;
+}
+
+/* Dropcaps */
+#lit div p:first-letter{
+    color: red;
+    float: left;
+    font-size: 3em;
+    padding: .5em;
+    margin-right: .25em;
+    line-height: .65;
+    border: 1px solid black;
+    text-shadow: 2px 2px 3px;
+    border-top-left-radius: .2em;
+    border-bottom-right-radius: .2em;
+    border-color: red;
 }
