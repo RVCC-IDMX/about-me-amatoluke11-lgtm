@@ -3,13 +3,13 @@ body{
 }
 header{
     font-family: Story Script;
-    color:#ABF468;
-    background-color: #63C9EB;
+    color:#3F1EE6;
+    background-color: #0AFC93;
     text-align: center;
 }
 main{
     text-align: center;
-    font-size: xx-large;
+    font-size: 20pt;
     font-family: Barriecito;
     color: #3F1EE6;
     background-color: #0AFC93;
@@ -20,10 +20,24 @@ img{
     height: auto;
 }
 p{
+    background-color: #0AFC93;
+    color: #3F1EE6;
+    text-align: center;
     font-family: Barriecito;
 }
 footer{
+    text-align: center;
     font-family: Story Script;
-    color:#ABF468;
-    background-color: #63C9EB;
+    color:#3F1EE6;
+    background-color: #0AFC93;
+}
+h1{
+    font-size: 40pt;
+}
+#hobbies{
+    text-align: left;
+}
+#hobbies ul li:nth-child(even){
+    color: red;
+    
 }
