@@ -1,3 +1,27 @@
+
+
+/* Hero */
+#hero img{
+    width: 15%;
+    height: auto;
+}
+
+/* Body */
+p{
+    background-color: #0AFC93;
+    color: #3F1EE6;
+    text-align: center;
+    font-family: Barriecito;
+}
+footer{
+    text-align: center;
+    font-family: Story Script;
+    color:#3F1EE6;
+    background-color: #0AFC93;
+}
+h1{
+    font-size: 40pt;
+}
 body{
     background-color: #E37971;
 }
@@ -14,30 +38,20 @@ main{
     color: #3F1EE6;
     background-color: #0AFC93;
 }
-img{
-    align-self: center;
-    width: 10%;
-    height: auto;
-}
-p{
-    background-color: #0AFC93;
-    color: #3F1EE6;
-    text-align: center;
-    font-family: Barriecito;
-}
-footer{
-    text-align: center;
-    font-family: Story Script;
-    color:#3F1EE6;
-    background-color: #0AFC93;
-}
-h1{
-    font-size: 40pt;
-}
+/* Hobbies */
 #hobbies{
     text-align: left;
 }
 #hobbies ul li:nth-child(even){
-    color: red;
+    color: #E37971;
+}
+
+/* Gallery */
+#gallery{
+    border: 2px solid #3F1EE6;
+}
+#gallery img{
+    max-width: 100%;
+    border: 2px solid #3F1EE6;
     
 }
