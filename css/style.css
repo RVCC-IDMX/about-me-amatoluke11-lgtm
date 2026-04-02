@@ -108,6 +108,11 @@ main{
         columns: 40rem;
     }
 }
+#myVideo{
+    border: 2px solid red;
+    aspect-ratio: 1 / 1;
+    border-radius: 5px;
+}
 
 /* laptop */
 @media screen and (min-width: 100em) {
