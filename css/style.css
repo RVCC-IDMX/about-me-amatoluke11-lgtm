@@ -87,6 +87,71 @@ main{
     border-color: red;
 }
 
+/* Contact Form */
+#contact {
+    padding: 1rem;
+    max-width: 600px;
+    margin: 2rem auto;
+}
+
+#form-elements {
+    display: grid;
+    row-gap: 0.5rem;
+}
+
+#contact fieldset {
+    border: 2px solid #3F1EE6;
+    margin: 0.5rem 0;
+}
+
+#contact legend {
+    background-color: #3F1EE6;
+    color: white;
+    padding: 0.5rem;
+}
+
+#contact input,
+#contact textarea,
+#contact select,
+#contact button {
+    padding: 0.5rem;
+    font-size: 1rem;
+}
+
+#contact ul {
+    list-style: none;
+    padding: 0;
+}
+
+#contact ul li {
+    margin: 1rem;
+}
+
+#contact button[type="submit"] {
+    background-color: #3F1EE6;
+    color: white;
+    border: 1px solid #3F1EE6;
+    width: 50%;
+    max-width: 400px;
+    justify-self: center;
+    display: block;
+    margin: 0.5rem auto;
+}
+
+/* tablet */
+@media screen and (min-width: 48em) {
+    #contact form {
+        max-width: 40rem;
+    }
+}
+
+/* laptop */
+@media screen and (min-width: 100em) {
+    #contact form {
+        max-width: 50rem;
+    }
+}
+
 /* tablet */
 @media screen and (min-width: 48em) {
 

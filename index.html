@@ -100,7 +100,52 @@
                 <iframe id="myVideo" width="560" height="315" src="https://www.youtube.com/embed/CTbrf3VNNXU?si=CHcBOIdZ-A7GLeoZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             </section>
 
-        
+            <section id="contact">
+                <h2>Contact Us</h2>
+                <form id="contact-form" name="contact-form" method="post" data-netlify="true">
+                    <fieldset>
+                        <legend>Contact Form</legend>
+                        <div id="form-elements">
+
+                            <label for="name">Name Required</label>
+                            <input type="text" id="name" name="name" required>
+
+                            <label for="email">Email Required</label>
+                            <input type="email" id="email" name="email" required>
+
+                            <label for="phone">Phone Optional</label>
+                            <input type="tel" id="phone" name="phone">
+
+                            <label for="phone-type">Phone Type Optional</label>
+                            <select id="phone-type" name="phone-type">
+                                <option value="" selected>Select Phone Type</option>
+                                <option value="mobile">Mobile</option>
+                                <option value="work">Work</option>
+                                <option value="home">Home</option>
+                            </select>
+
+                            <label for="message">Message Optional</label>
+                            <textarea id="message" name="message" rows="8"></textarea>
+
+                            <fieldset>
+                                <legend>Would You Like a Reply?</legend>
+                                <ul>
+                                    <li>
+                                        <input type="radio" id="message-yes" name="reply" value="yes-reply-please">
+                                        <label for="message-yes">Yes, a reply would be nice</label>
+                                    </li>
+                                    <li>
+                                        <input type="radio" id="message-no" name="reply" value="no-reply-please" checked>
+                                        <label for="message-no">No thanks</label>
+                                    </li>
+                                </ul>
+                            </fieldset>
+
+                        </div>
+                    </fieldset>
+                    <button type="submit">Send</button>
+                </form>
+            </section>
         </main>
     <p>Now on Netlify!</p>
         <footer>
