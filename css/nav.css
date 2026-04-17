@@ -54,7 +54,22 @@ main {
   style all a tags in header
   and then on hover
 */
+.navbar-links a {
+    color: #0AFC93;
+    background-color: #3F1EE6;
+    font-size: 1.5rem;
+    padding: 1rem 1.25rem;
+    letter-spacing: 2px;
+    text-decoration: none;
+    display: inline-block;
+}
 
+.navbar-links a:hover,
+.navbar-links a:focus {
+    filter: invert(1);
+    border-radius: 10px;
+    outline: none;
+}
 /*
   media query for non-mobile nav bar
   min-width set to width of nav elements
