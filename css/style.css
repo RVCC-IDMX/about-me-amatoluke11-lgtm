@@ -28,6 +28,8 @@ header{
     color:#3F1EE6;
     background-color: #0AFC93;
     text-align: center;
+    width: 100%;
+    box-sizing: border-box;
 }
 main{
     text-align: center;
@@ -35,6 +37,8 @@ main{
     font-family: Barriecito;
     color: #3F1EE6;
     background-color: #0AFC93;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 /* Hobbies - centered for all screen sizes with flex */
