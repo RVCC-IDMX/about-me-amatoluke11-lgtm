@@ -19,9 +19,31 @@ main {
 }
 
 /* navbar */
+.navbar {
+    background-color: #3F1EE6;
+    color: #0AFC93;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    padding: 1rem;
+}
+
 
 /* logo */
+.logo {
+    display: flex;
+    align-items: center;
+}
 
+.logo img {
+    height: 7vw;
+    width: 7vw;
+}
+
+.logo h1 {
+    font-size: 1.2em;
+}
 /* navigation list */
 
 /*
