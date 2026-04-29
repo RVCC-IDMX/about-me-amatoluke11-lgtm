@@ -27,8 +27,8 @@ The mint green background and bright purple text were chosen for their high cont
 ## Sections
 
 - **Nav Bar** — A small bar at the top of the page that directs you to each category. Taught me how to style one, use smooth scrolling, hover effects, and more media query skills.
-- **Bio** — A personal introduction including my name, location, and what I want to be doing. I learned how to center text and implement basic spacing for a website.
-- **Hobbies & Interests** — 7 hobbies bulleted with links for each providing a Wikipedia article to explain what they are. I learned how to implement links and add stylized bullet points.
+- **Bio** — A personal introduction including my name, location, what I want to be doing, and a little more information af=bout my major and aspirations. I learned how to center text and implement basic spacing for a website.
+- **Hobbies & Interests** — 7 hobbies with links for each providing a Wikipedia article to explain what they are. I learned how to implement links and add stylized bullet points. Underneath, is a caption including a short description of each hobby.
 - **Gallery** — Three sections covering my main hobbies: fishing, guitar, and snowboarding. Each includes a personal photo, a short caption, and a linked location tag showing where each photo took place (other than guitar). I learned how to input images in an orderly fashion, while also adding figcaption links underneath.
 - **Blog / Articles** — An excerpt from Alice in Wonderland, which showed me how to implement drop caps, and style large pieces of text in an organized way utilizing CSS.
 - **Contact** — A web form to get in touch, with name, email, and message fields.
@@ -40,8 +40,8 @@ The mint green background and bright purple text were chosen for their high cont
 The following external sources were used for content I did not create myself:
 
 - Google Fonts — [https://fonts.google.com](https://fonts.google.com) — fonts used in site typography
-- Wikimedia Commons — [https://commons.wikimedia.org](https://commons.wikimedia.org) — copyright-free articles used
-- Project Gutenberg — [https://www.gutenberg.org](https://www.gutenberg.org) — source for the Alice in Wonderland excerpt used in the Blog section
+- Wikimedia Commons — [https://commons.wikimedia.org](https://commons.wikimedia.org) — copyright-free articles used for descriptions
+- Literary Lorem Ipsum Generator — [https://lit-gen.netlify.app/](https://lit-gen.netlify.app/) — source for the Alice in Wonderland excerpt used in the Blog section
 - Netlify — [https://www.netlify.com](https://www.netlify.com) — hosting platform
 
 ---
