@@ -30,7 +30,7 @@ The mint green background and bright purple text were chosen for their high cont
 - **Bio** — A personal introduction including my name, location, what I want to be doing, and a little more information af=bout my major and aspirations. I learned how to center text and implement basic spacing for a website.
 - **Hobbies & Interests** — 7 hobbies with links for each providing a Wikipedia article to explain what they are. I learned how to implement links and add stylized bullet points. Underneath, is a caption including a short description of each hobby.
 - **Gallery** — Three sections covering my main hobbies: fishing, guitar, and snowboarding. Each includes a personal photo, a short caption, and a linked location tag showing where each photo took place (other than guitar). I learned how to input images in an orderly fashion, while also adding figcaption links underneath.
-- **Blog / Articles** — An excerpt from Alice in Wonderland, which showed me how to implement drop caps, and style large pieces of text in an organized way utilizing CSS.
+- **Blog** - A personal excerpt explaining and showing what image hover effects are, and what they are useful for.
 - **Contact** — A web form to get in touch, with name, email, and message fields.
 
 ---
@@ -46,6 +46,11 @@ The following external sources were used for content I did not create myself:
 
 ---
 
+## Sources For Blog
+- MDN - [https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Selectors/Pseudo-classes](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Selectors/Pseudo-classes)
+- CSS-Tricks: Transform - [https://css-tricks.com/almanac/properties/t/transform/](https://css-tricks.com/almanac/properties/t/transform/)
+- CSS-Tricks: Transition - [https://css-tricks.com/almanac/properties/t/transition/](https://css-tricks.com/almanac/properties/t/transition/)
+- W3Schools: CSS Box-Shadow - [https://www.w3schools.com/css/css3_shadows_box.asp](https://www.w3schools.com/css/css3_shadows_box.asp)
 ## License
 
 © 2026 Luke Amato. All rights reserved.
