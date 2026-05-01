@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <link rel="icon" href="img/logo.ico" type="image/x-icon">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Barriecito&display=swap" rel="stylesheet">
@@ -16,9 +17,14 @@
         <header>
             <nav class="navbar">
                 <div class="logo">
-                    <img src="img/logo-96X96.svg" class="log-img" alt="Blue origami logo" />
+                    <img src="img/LA_logo.png" class="log-img" alt="LA logo" />
                     <h1 class="logo-title">Web Dev 1</h1>
                 </div>
+                <button class="hamburger" id="hamburger-btn" aria-label="Toggle navigation">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
                 <div class="navbar-links">
                     <ul>
                         <li><a href="#hero" class="nav-links">Bio</a></li>
@@ -32,30 +38,48 @@
 
         <main>
             <section id="hero">
-                    <img src="img/avataaars.png" alt="Avatar picture of me">
-                    <h1>Biography</h1>
-
-                
-
-                <div>
+                <img src="img/personal_pic.jpg" alt="Photo of Luke Amato">
+                <h1>Biography</h1>
+                <div id="bio-content">
                     <p>Luke Amato</p>
                     <p>Somerville, NJ</p>
-                    <p> I want to be...</p>
+                    <p>I want to be...</p>
                     <p>Traveling the world</p>
-
+                    <p>I'm 19 years old and a freshman at RVCC. I am currently studying Mechanical Engineering and hope to transfer to Rutgers my junior year. I was a CompSci major but just recently switched after I fell in love with the creative aspect of engineering. I hope one day to be working for defense contractors or in the construction area. It's such a broad field so my ideas are bound to change, but for now that's my plan.</p>
                 </div>
             </section>
 
             <section id="hobbies">
                 <h2>Hobbies</h2>
                 <ul>
-                    <li><a href="https://en.wikipedia.org/wiki/Fishing">Fishing</a></li>
-                    <li><a href="https://en.wikipedia.org/wiki/Snowboarding">Snowboarding</a></li>
-                    <li><a href="https://en.wikipedia.org/wiki/Guitar">Guitar</a></li>
-                    <li><a href="https://en.wikipedia.org/wiki/Reading">Reading</a></li>
-                    <li><a href="https://en.wikipedia.org/wiki/3D_modeling">3D Modeling</a></li>
-                    <li><a href="https://en.wikipedia.org/wiki/Exercise">Exercise</a></a></li>
-                    <li><a href="https://en.wikipedia.org/wiki/Travel">Travel</a></li>
+                    <li>
+                        <a href="https://en.wikipedia.org/wiki/Fishing">Fishing</a>
+                        <p class="hobby-desc">Fishing is a big hobby of mine, I find it extremely relaxing and I love to be outdoors with nature. I go with my friends around the woods areas and catch fish. I've only been fishing for about a year, but it is some of the most fun I've ever had surprisingly.</p>
+                    </li>
+                    <li>
+                        <a href="https://en.wikipedia.org/wiki/Snowboarding">Snowboarding</a>
+                        <p class="hobby-desc">I ride seasonally at resorts like Blue Mountain in the Poconos. Since the winter days don't allow much time to be outdoors, this is one of the best things I can still do. It is easily the most exhilarating experience I've ever had, and the adrenaline rush is a very addicting drug.</p>
+                    </li>
+                    <li>
+                        <a href="https://en.wikipedia.org/wiki/Guitar">Guitar</a>
+                        <p class="hobby-desc">I've been playing for several years with a focus on blues playing. I love guitarists like Gary Moore, John Mayer, and my all time favorite, Jimi Hendrix. My guitar teacher is a family friend who's played in bands with my uncles and cousins.</p>
+                    </li>
+                    <li>
+                        <a href="https://en.wikipedia.org/wiki/Reading">Reading</a>
+                        <p class="hobby-desc">I enjoy reading across a range of genres like fiction and nonfiction, my most recent read was 1984 by George Orwell. It's a dystopian novel that focuses on a government that no one can stand up to. Another personal favorite read is The Hike by Drew Magary. It's about a man who gets lost on a trek, and gets sent through an Alice in Wonderland-style adventure.</p>
+                    </li>
+                    <li>
+                        <a href="https://en.wikipedia.org/wiki/3D_modeling">3D Modeling</a>
+                        <p class="hobby-desc">I've been utilizing 3D modeling software to create a large resume for my mechanical engineering projects. I've created products for the guitar, and remote controls.</p>
+                    </li>
+                    <li>
+                        <a href="https://en.wikipedia.org/wiki/Exercise">Exercise</a>
+                        <p class="hobby-desc">Strength training is a regular part of my routine, I go to the gym 3-4 times each week and have been since my freshman year of High School. I hate leg day but it's necessary.</p>
+                    </li>
+                    <li>
+                        <a href="https://en.wikipedia.org/wiki/Travel">Travel</a>
+                        <p class="hobby-desc">Traveling is something I'm passionate about, I want to see as much of the world as I possibly can. My friend PJ and I are traveling to Italy in 3 weeks and staying there for 2 weeks. We are going from Milan, to Lake Como, to Florence, and ending off in Positano.</p>
+                    </li>
                 </ul>
             </section>
             <section id="gallery">
@@ -83,27 +107,45 @@
 
             <article id="lit">
 
-                <h2>An Excerpt From Alice in Wonderland</h2>
+                <h2>Image Hover Effects</h2>
 
                 <div>
                     
-                    <p>The Caterpillar and Alice looked at each other for some time in silence: at last the Caterpillar took the hookah out of its mouth, and addressed her in a languid, sleepy voice. 'Who are you?' said the Caterpillar. This was not an encouraging opening for a conversation. Alice replied, rather shyly, 'I—I hardly know, sir, just at present—at least I know who I was when I got up this morning, but I think I must have been changed several times since then.'</p>
+                    <p>Image hover effects are a straightforward way to enhance a website’s interactivity and visual appeal. When users move their cursor over an element, such as an image, a visual change is triggered. This transformation can include a slight zoom, a color adjustment, or an overlay appearing on top of the image. These effects are done strictly with CSS, so there’s no need for any other language. They are accessible and easy for beginner web developers to implement.</p>
 
-                    <p>Alice was beginning to get very tired of sitting by her sister on the bank, and of having nothing to do: once or twice she had peeped into the book her sister was reading, but it had no pictures or conversations in it, 'and what is the use of a book,' thought Alice 'without pictures or conversation?'</p>
+                    <p>The main hover effect is the CSS pseudo-class :hover. This class lets you apply special styles when a user’s cursor is over an element. For example, using img:hover tells the browser to apply certain styles only when the mouse is over an image. This simple mechanic is what makes all hover effects possible, from the most basic to the most advanced.</p>
 
-                    <p>The rabbit-hole went straight on like a tunnel for some way, and then dipped suddenly down, so suddenly that Alice had not a moment to think about stopping herself before she found herself falling down a very deep well. Either the well was very deep, or she fell very slowly, for she had plenty of time as she went down to look about her and to wonder what was going to happen next.</p>
+                    <p>One of the most commonly used hover effects is the zoom or scale effect. This is done by using the transform property combined with the scale function. Setting the transform to scale(1.05) on hover will cause the image to grow to 105% of its original size when hovered over. On its own, this works well, but it looks much better when paired with the transition property. The transition property controls how smoothly a change occurs over time. Without it, the scale jumps instantly, which looks bad to the viewer. Adding something like transform 0.3s ease tells the browser to animate that change over 0.3 seconds with a natural easing curve, making it look much more polished.</p>
 
-                    <p>So she was considering in her own mind (as well as she could, for the hot day made her feel very sleepy and stupid), whether the pleasure of making a daisy-chain would be worth the trouble of getting up and picking the daisies, when suddenly a White Rabbit with pink eyes ran close by her.</p>
+                    <p>Another popular effect is the box shadow hover, where a colored shadow appears around the image when hovered. This is done with the box-shadow property, which takes values for horizontal offset, vertical offset, blur radius, and color. This works naturally with the scale effect and can be used to work with a site's color scheme, for example, using a purple glow on a site that uses purple as its primary accent color.</p>
 
-                    <p>Alice opened the door and found that it led into a small passage, not much larger than a rat-hole: she knelt down and looked along the passage into the loveliest garden you ever saw. How she longed to get out of that dark hall, and wander about among those beds of bright flowers and those cool fountains, but she could not even get her head through the doorway.</p>
+                    <p>A more advanced technique is the overlay effect, where a semi-transparent layer with text or a tint slides or fades over the image on hover. This is usually done by wrapping the image in a container, positioning a div on top of it with position absolute, setting its opacity to zero by default, and then transitioning it to full opacity on hover. If you want to avoid your site looking cluttered, this is a great option.</p>
 
-                    <p>Alice opened the door and found that it led into a small passage, not much larger than a rat-hole: she knelt down and looked along the passage into the loveliest garden you ever saw. How she longed to get out of that dark hall, and wander about among those beds of bright flowers and those cool fountains, but she could not even get her head through the doorway.</p>
+                    <p>An important thing to note if you want to make your hover effects work better, is to use the overflow property. The overflow property controls what happens when content (in this case an image) goes past its parent container. Setting overflow: hidden will prevent the images from spilling out of their containers, providing a cleaner look.</p>
 
-                    <p>Alice was beginning to get very tired of sitting by her sister on the bank, and of having nothing to do: once or twice she had peeped into the book her sister was reading, but it had no pictures or conversations in it, 'and what is the use of a book,' thought Alice 'without pictures or conversation?'</p>
-
-                    <p>The rabbit-hole went straight on like a tunnel for some way, and then dipped suddenly down, so suddenly that Alice had not a moment to think about stopping herself before she found herself falling down a very deep well. Either the well was very deep, or she fell very slowly, for she had plenty of time as she went down to look about her and to wonder what was going to happen next.</p>       
-
+                    <p>Overall, image hover effects show how a small amount of CSS can make a significant difference in how professional and complete a website feels. They improve user experience by giving visual feedback when interacting with content, and they can be customized endlessly to fit whatever style you aim for. The image hover effect is something that every beginner should strive to learn, if they want to grow as a developer. I’ve used it across this website, and I plan to use it on any other sites I build as well! Feel free to check out the examples made below, utilizing these techniques.</p>    
+                    
+                    <p>Sources: MDN Web Docs, CSS Tricks, and W3Schools</p>
                 </div>
+
+                <h2>Examples</h2>
+                <section id="hover-examples">
+                    <figure class="hover-scale">
+                        <img src="img/fishing_pond.jpg" alt="Sunset reflecting over Ann Van pond">
+                        <figcaption>Scale Effect — hover to zoom in</figcaption>
+                    </figure>
+
+                    <figure class="hover-shadow">
+                        <img src="img/nyc_skyline.jpg" alt="New York City skyline viewed from across the water">
+                        <figcaption>Box Shadow Effect — hover for a glow</figcaption>
+                    </figure>
+
+                    <figure class="hover-overlay">
+                        <img src="img/ski_lift.JPG" alt="Ski lift at night with lit slopes at Blue Mountain">
+                        <div class="overlay">Overlay Effect</div>
+                        <figcaption>Overlay Effect — hover for a tint</figcaption>
+                    </figure>
+                </section>
 
             </article>
 
@@ -165,4 +207,11 @@
             <p>Now on Netlify!</p>
         </footer>
     </body>
+    <script>
+        const btn = document.getElementById('hamburger-btn');
+        const links = document.querySelector('.navbar-links');
+        btn.addEventListener('click', function() {
+            links.classList.toggle('open');
+        });
+    </script>
 </html>
