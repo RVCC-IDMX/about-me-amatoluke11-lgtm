@@ -20,6 +20,11 @@
                     <img src="img/LA_logo.png" class="log-img" alt="LA logo" />
                     <h1 class="logo-title">Web Dev 1</h1>
                 </div>
+                <button class="hamburger" id="hamburger-btn" aria-label="Toggle navigation">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
                 <div class="navbar-links">
                     <ul>
                         <li><a href="#hero" class="nav-links">Bio</a></li>
@@ -202,4 +207,11 @@
             <p>Now on Netlify!</p>
         </footer>
     </body>
+    <script>
+        const btn = document.getElementById('hamburger-btn');
+        const links = document.querySelector('.navbar-links');
+        btn.addEventListener('click', function() {
+            links.classList.toggle('open');
+        });
+    </script>
 </html>
