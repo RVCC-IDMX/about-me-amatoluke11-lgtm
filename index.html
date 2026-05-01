@@ -112,14 +112,35 @@
 
                     <p>One of the most commonly used hover effects is the zoom or scale effect. This is done by using the transform property combined with the scale function. Setting the transform to scale(1.05) on hover will cause the image to grow to 105% of its original size when hovered over. On its own, this works well, but it looks much better when paired with the transition property. The transition property controls how smoothly a change occurs over time. Without it, the scale jumps instantly, which looks bad to the viewer. Adding something like transform 0.3s ease tells the browser to animate that change over 0.3 seconds with a natural easing curve, making it look much more polished.</p>
 
-                    <p>Another popular effect is the box shadow hover, where a colored shadow appears around the image when hovered. This is done with the box-shadow property, which takes values for horizontal offset, vertical offset, blur radius, and color. This works naturally with the scale effect and can be used to reinforce a site's color scheme, for example, using a purple glow on a site that uses purple as its primary accent color.</p>
+                    <p>Another popular effect is the box shadow hover, where a colored shadow appears around the image when hovered. This is done with the box-shadow property, which takes values for horizontal offset, vertical offset, blur radius, and color. This works naturally with the scale effect and can be used to work with a site's color scheme, for example, using a purple glow on a site that uses purple as its primary accent color.</p>
 
-                    <p>A more advanced technique is the overlay effect, where a semi-transparent layer with text or a tint slides or fades over the image on hover. This is usually done by wrapping the image in a container, positioning a div on top of it with position absolute, setting its opacity to zero by default, and then transitioning it to full opacity on hover. This effect is a lot used on portfolio sites and image galleries to display captions or descriptions without the layout looking messy.</p>
+                    <p>A more advanced technique is the overlay effect, where a semi-transparent layer with text or a tint slides or fades over the image on hover. This is usually done by wrapping the image in a container, positioning a div on top of it with position absolute, setting its opacity to zero by default, and then transitioning it to full opacity on hover. If you want to avoid your site looking cluttered, this is a great option.</p>
 
-                    <p>Overall, image hover effects show how a small amount of CSS can make a significant difference in how professional and complete a website feels. They improve user experience by giving visual feedback when interacting with content, and they can be customized endlessly to fit whatever style a site is pursuing. The image hover effect is something that every beginner should strive to learn, if they want to grow as a developer. I’ve used it across this website, and I plan to use it on any other sites I build as well!</p>    
+                    <p>An important thing to note if you want to make your hover effects work better, is to use the overflow property. The overflow property controls what happens when content (in this case an image) goes past its parent container. Setting overflow: hidden will prevent the images from spilling out of their containers, providing a cleaner look.</p>
+
+                    <p>Overall, image hover effects show how a small amount of CSS can make a significant difference in how professional and complete a website feels. They improve user experience by giving visual feedback when interacting with content, and they can be customized endlessly to fit whatever style you aim for. The image hover effect is something that every beginner should strive to learn, if they want to grow as a developer. I’ve used it across this website, and I plan to use it on any other sites I build as well! Feel free to check out the examples made below, utilizing these techniques.</p>    
                     
                     <p>Sources: MDN Web Docs, CSS Tricks, and W3Schools</p>
                 </div>
+
+                <h2>Examples</h2>
+                <section id="hover-examples">
+                    <figure class="hover-scale">
+                        <img src="img/fishing_pond.jpg" alt="Sunset reflecting over Ann Van pond">
+                        <figcaption>Scale Effect — hover to zoom in</figcaption>
+                    </figure>
+
+                    <figure class="hover-shadow">
+                        <img src="img/nyc_skyline.jpg" alt="New York City skyline viewed from across the water">
+                        <figcaption>Box Shadow Effect — hover for a glow</figcaption>
+                    </figure>
+
+                    <figure class="hover-overlay">
+                        <img src="img/ski_lift.JPG" alt="Ski lift at night with lit slopes at Blue Mountain">
+                        <div class="overlay">Overlay Effect</div>
+                        <figcaption>Overlay Effect — hover for a tint</figcaption>
+                    </figure>
+                </section>
 
             </article>
 

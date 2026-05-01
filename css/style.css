@@ -95,6 +95,74 @@ main{
     padding: 0.3rem 0;
     clear:both;
 }
+/* Hover Examples */
+#hover-examples {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    padding: 2rem;
+}
+
+#hover-examples figure {
+    width: 280px;
+    position: relative;
+    overflow: hidden;
+    border: 2px solid #3F1EE6;
+    border-radius: 8px;
+}
+
+#hover-examples img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    display: block;
+}
+
+/* Scale */
+.hover-scale img {
+    transition: transform 0.3s ease;
+}
+.hover-scale img:hover {
+    transform: scale(1.1);
+}
+
+/* Box Shadow */
+.hover-shadow img {
+    transition: box-shadow 0.3s ease;
+}
+.hover-shadow img:hover {
+    box-shadow: 0 0 20px black;
+}
+
+/* Overlay */
+.hover-overlay {
+    position: relative;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 200px;
+    background-color: blue;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+.hover-overlay:hover .overlay {
+    opacity: 1;
+}
+
+#hover-examples figcaption {
+    padding: 0.75rem;
+    font-size: 1rem;
+    text-align: center;
+}
 
 /* Dropcaps */
 #lit div p:first-child:first-letter{

@@ -30,7 +30,7 @@ The mint green background and bright purple text were chosen for their high cont
 - **Bio** — A personal introduction including my name, location, what I want to be doing, and a little more information af=bout my major and aspirations. I learned how to center text and implement basic spacing for a website.
 - **Hobbies & Interests** — 7 hobbies with links for each providing a Wikipedia article to explain what they are. I learned how to implement links and add stylized bullet points. Underneath, is a caption including a short description of each hobby.
 - **Gallery** — Three sections covering my main hobbies: fishing, guitar, and snowboarding. Each includes a personal photo, a short caption, and a linked location tag showing where each photo took place (other than guitar). I learned how to input images in an orderly fashion, while also adding figcaption links underneath.
-- **Blog** - A personal excerpt explaining and showing what image hover effects are, and what they are useful for.
+- **Blog** - A personal excerpt explaining and showing what image hover effects are, and what they are useful for, 3 examples underneath, showcasing them.
 - **Contact** — A web form to get in touch, with name, email, and message fields.
 
 ---
